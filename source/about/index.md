@@ -1,5 +1,5 @@
 ---
-title: 关于
+title: 关于本人
 date: 2026-04-07 13:09:01
 layout: about
 banner_img: /img/landscape1.jpg

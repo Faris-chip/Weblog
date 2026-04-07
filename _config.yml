@@ -15,8 +15,8 @@ language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-url: https://faris-chip.github.io/Baiyang
-root: /Baiyang/
+url: https://Faris-chip.github.io/Weblog
+root: /Weblog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
