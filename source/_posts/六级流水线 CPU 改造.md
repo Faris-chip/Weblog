@@ -5,7 +5,7 @@ categories:
   - CPU
 tags:
   - RISC-V
-  - CPU 设计
+  - CPU设计
 index_img: /img/chip6.jpg
 banner_img: /img/chip6.jpg
 ---
