@@ -2,7 +2,7 @@
 title: 关于本人
 date: 2026-04-07 13:09:01
 layout: about
-banner_img: /img/landscape1.jpg
+banner_img: /img/landscape1.png
 ---
 这里会长期记录我在数字 IC 方向上的学习过程~
 

@@ -501,7 +501,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/chip2.jpg
+  banner_img: /img/chip2.png
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -573,7 +573,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/chip3.jpg
+  banner_img: /img/chip3.png
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -945,7 +945,7 @@ discuss:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/chip2.jpg
+  banner_img: /img/chip2.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -956,7 +956,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/chip1.jpg
+  banner_img: /img/chip1.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -985,12 +985,12 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/chip4.jpg
+  banner_img: /img/chip4.png
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
-    min_font: 14
-    max_font: 34
+    min_font: 16
+    max_font: 30
     unit: px
     start_color: "#BBBBEE"
     end_color: "#337ab7"
@@ -1002,7 +1002,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/landscape1.jpg
+  banner_img: /img/landscape1.png
   banner_img_height: 65
   banner_mask_alpha: 0.0
   avatar: /img/avatar.png
