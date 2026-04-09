@@ -58,9 +58,18 @@ prismjs:
   line_number: true
   tab_replace: ''
 
-marked:
-  prependRoot: true
-  postAsset: true
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+  plugins:
+    - '@traptitech/markdown-it-katex'
+  images:
+    prepend_root: true
+    post_asset: true
 
 # Home page setting
 index_generator:
