@@ -6,8 +6,8 @@ categories:
 tags:
   - CPU设计
   - 科技前沿
-index_img: /img/chip9.png
-banner_img: /img/chip9.png
+index_img: /img/chip9.WebP
+banner_img: /img/chip9.WebP
 ---
 **CPU的单核结构在今天已经是公开的秘密，CPU 公司要如何做出有竞争力的产品？**我在小红书和知乎上面经常刷到各种关于 CPU 已经市场饱和的帖子，现在入行做 CPU 设计堪比 49 年加入国军，不如去做 GPU、NPU等 AI 加速器，的确，如果只是从就业薪资的角度来看，CPU 设计岗位的数量和待遇明显不如新兴的 AI 加速器，但是，现在的 CPU 真的没有发展前景了吗？
 

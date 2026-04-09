@@ -501,7 +501,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/chip2.png
+  banner_img: /img/chip2.WebP
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -573,7 +573,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/chip3.png
+  banner_img: /img/chip3.WebP
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -743,11 +743,11 @@ post:
   math:
     # 开启后文章默认可用，自定义页面如需使用，需在 Front-matter 中指定 `math: true`
     # If you want to use math on the custom page, you need to set `math: true` in Front-matter
-    enable: false
+    enable: true
 
     # 开启后，只有在文章 Front-matter 里指定 `math: true` 才会在文章页启动公式转换，以便在页面不包含公式时提高加载速度
     # If true, only set `math: true` in Front-matter will enable math, to load faster when the page does not contain math
-    specific: false
+    specific: true
 
     # Options: mathjax | katex
     engine: mathjax
@@ -945,7 +945,7 @@ discuss:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/chip2.png
+  banner_img: /img/chip2.WebP
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -956,7 +956,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/chip1.png
+  banner_img: /img/chip1.WebP
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -985,7 +985,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/chip4.png
+  banner_img: /img/chip4.WebP
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -1002,7 +1002,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/landscape1.png
+  banner_img: /img/landscape1.WebP
   banner_img_height: 65
   banner_mask_alpha: 0.0
   avatar: /img/avatar.png

@@ -7,8 +7,9 @@ tags:
   - NPU设计
   - 闲谈
   - 科技前沿
-index_img: /img/landscape5.png
-banner_img: /img/landscape5.png
+index_img: /img/landscape5.WebP
+banner_img: /img/landscape5.WebP
+math: true
 ---
 在上篇文章中，我们主要介绍了 CPU、GPU、NPU 三者的计算密度以及专用性，正是他们的架构特性决定了他们的使用场景，这篇文章将从架构特征中的“存储层次设计差异”和“控制流于数据流特征”入手，继续分析 NPU 和 CPU、GPU的区别~
 

@@ -7,8 +7,9 @@ tags:
   - NPU设计
   - 闲谈
   - 科技前沿
-index_img: /img/landscape4.png
-banner_img: /img/landscape4.png
+index_img: /img/landscape4.WebP
+banner_img: /img/landscape4.WebP
+math: true
 ---
 去年参加了第一届全国 RISC-V 创新应用大赛，当时设计了一个 16x16 的脉动阵列，当时设计的脉动阵列比较简单，很多问题没有仔细考虑，比如计算精度、数据流动方式、使用场景等问题，现在开始系统性地学习 NPU 设计，加深自己对 AI 加速器设计的认识和理解，同时补充自己的知识体系，这篇文章先从 NPU 的架构特征入手，分析 NPU 和 CPU、GPU的区别~
 
@@ -127,7 +128,7 @@ $$
 * GPU：每条指令需要~20个晶体管（SIMT摊销）
 * NPU：每条指令需要~5个晶体管（静态调度）
 
-这种简化直接转化为能效提升。根据Amdahl定律的变体： 
+这种简化直接转化为能效提升。根据Amdahl定律的变体：
 
 $$
 \text{Speedup}_{energy} = \frac{1}{f_{control} \times \frac{1}{S_{control}} + (1 - f_{control})}
@@ -137,7 +138,7 @@ $$
 
 NPU的内存系统专门为神经网络访问模式优化。权重在推理过程中是只读的，可以预先加载到片上存储。激活值在层之间流动，具有生产者-消费者模式。这种可预测性允许使用简单的双缓冲或乒乓缓冲策略，避免复杂的缓存一致性协议。
 
-数据重用的数学模型对于理解NPU的优势至关重要。考虑卷积操作的数据重用： 
+数据重用的数学模型对于理解NPU的优势至关重要。考虑卷积操作的数据重用：
 
 $$
 \text{Reuse Factor} = \frac{\text{Total Operations}}{\text{Unique Data Elements}}
@@ -150,7 +151,7 @@ $$
 * 权重数据：$C_{in} \times C_{out} \times K^2$
 * 输出数据：$C_{out} \times H_{out} \times W_{out}$
 
-重用因子： 
+重用因子：
 
 $$
 RF = \frac{2 \times C_{in} \times C_{out} \times K^2 \times H_{out} \times W_{out}}{C_{in} \times H \times W + C_{in} \times C_{out} \times K^2 + C_{out} \times H_{out} \times W_{out}}

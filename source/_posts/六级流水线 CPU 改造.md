@@ -6,8 +6,8 @@ categories:
 tags:
   - RISC-V
   - CPU设计
-index_img: /img/chip6.png
-banner_img: /img/chip6.png
+index_img: /img/chip6.WebP
+banner_img: /img/chip6.WebP
 ---
 在 2025 年，我作为队员参加了第九届集创赛的竞业达杯，我们当时设计了五级流水线的 RISC-V 处理器，支持基础的 RV32I 指令集，在 Kintex-7 的 FPGA 开发板上成功运行，最高时钟频率为 180 MHz，比赛时稳定运行的时钟频率为 160 MHz；2026 年，我作为队长再次参加集创赛竞业达杯，在我们去年的 CPU 基础上进行进一步的改造。
 
